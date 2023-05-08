@@ -19,3 +19,7 @@ if __name__ == "__main__":
     vagon1 = Nodo("Mango")
     print(vagon1)
     print(vagon1.prox)
+
+
+    lista = [['Juan', 2], ['pepe', 8]]
+    
