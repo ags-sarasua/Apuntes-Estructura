@@ -11,4 +11,22 @@ class pilaLinkedlist:
     def __init__(self, headvalue = None):
         self.headvalue = headvalue
 
-#FIFO: el primero que llegue es el primero que se va. Entro por un extremo y salgo por el otro
+#Pila como lista simple:
+lista = []
+lista.append(38)
+lista.append(14)
+lista.append(7)
+print(lista)
+
+#Eliminar elementos
+print(lista.pop())
+
+#Para no perder los elementos usamos una lista auxiliar
+pilaAux = []
+pilaAux.append(lista.pop())
+pilaAux.append(lista.pop())
+pilaAux.append(lista.pop()) #Listo ahi sacamos todos los elementos
+print(pilaAux) #pero está al revés el orden ahora
+pilaAux.reverse()
+
+
