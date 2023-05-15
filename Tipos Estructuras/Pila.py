@@ -24,9 +24,8 @@ print(lista.pop())
 #Para no perder los elementos usamos una lista auxiliar
 pilaAux = []
 pilaAux.append(lista.pop())
-pilaAux.append(lista.pop())
 pilaAux.append(lista.pop()) #Listo ahi sacamos todos los elementos
 print(pilaAux) #pero está al revés el orden ahora
-pilaAux.reverse()
+print(pilaAux.reverse())
 
 
