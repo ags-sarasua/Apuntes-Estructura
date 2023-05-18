@@ -48,6 +48,7 @@ valores = diccionario1.values()
 print(valores)
 
 #Formas de movernos
+print("Forma de movernos")
 for key, value in diccionario1.items():
     print(key, value)
 
@@ -63,4 +64,11 @@ for cliente in clientes:
 print(dicc_clientes2.items())
 
 #Crear un diccionario filtrando desde la lista
-dic3 = {cliente.dic[cliente] for cliente in dic if dic[cliente][1]>25}
+#dic3 = {cliente.dic[cliente] for cliente in dic if dic[cliente][1]>25}
+
+#dic = {"Pepe", {"Sur": "Boca", "Norte"}}
+
+regiones = ["Norte", "Sur", ]
+
+coso = input("Dame la región")
+#lista[listaZonas.index(coso)]
