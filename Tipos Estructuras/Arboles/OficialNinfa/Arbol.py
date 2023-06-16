@@ -5,7 +5,7 @@ class arbol:
        
     # agregar al arbol
     def agregarnodo(self,nodo):
-        if self.root==None:
+        if self.root is None:
             self.root=nodo
         else:
             root=self.root
@@ -13,7 +13,7 @@ class arbol:
             root.agregarnodos(nodo)
     
     def buscarNodo(self,nodo):
-        if self.root==None:
+        if self.root is None:
             return("Este árbol está vacío")
         pass
 

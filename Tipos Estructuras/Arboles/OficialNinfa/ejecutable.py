@@ -3,7 +3,7 @@ from claseNodoArbol import *
 import Arbol
 from Arbol import *
 
-"""
+""""""
 nodo1=claseNodoArbol.NodoArbol(10)
 nodo2=claseNodoArbol.NodoArbol(100)
 nodo3=claseNodoArbol.NodoArbol(8)
@@ -21,4 +21,4 @@ Arbol.arbol.preorder(arbol1.root)
 print("Visualizar el arbol end inorder \n")
 Arbol.arbol.inorder(arbol1.root)
 print("Visualizar el arbol end postorder \n")
-Arbol.arbol.posorden(arbol1.root)"""
+Arbol.arbol.posorden(arbol1.root)
